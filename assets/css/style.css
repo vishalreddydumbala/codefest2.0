@@ -1229,7 +1229,7 @@ blockquote > p {
   margin-bottom: 2px !important;
 }
 
-blockquote cite {
+blockquote cite { 
   font-size: 16px;
   font-style: normal;
   color: var(--c1);
