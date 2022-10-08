@@ -369,15 +369,19 @@ We may release future updates so it will overwrite this file. it's better and sa
   09: Preloader 
   ====================================*/
 
-
-  $(window).on("load", function () {
-    $(".preloader-svg").animate({
-      "stroke-dasharray": 890
-    }, 3000, function () {
-      $(this).find("path").css("fill", "#FF0076");
-      $(".preloader").fadeOut(200);
-    });
-  });
+  $(window).on('load', function () {
+    setTimeout(function () {
+      $('#loading').hide();
+    }, 4000);
+  }) 
+  // $(window).on("load", function () {
+  //   $(".preloader-svg").animate({
+  //     "stroke-dasharray": 890
+  //   }, 3000, function () {
+  //     $(this).find("path").css("fill", "#FF0076");
+  //     $(".preloader").fadeOut(200);
+  //   });
+  // });
   /*==================================
   10: Contact Form
   ====================================*/
