@@ -5844,3 +5844,236 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* -------------------------------------------- */
+.container1 {
+  position: relative;
+  left: 15px;
+}
+/*----------------------------------------*/
+/* 7. What happen area
+/*----------------------------------------*/
+.tab-menu-list ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+.tab-menu-list li a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  color: #555;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 30px;
+  display: block;
+}
+.tab-menu-list li a.active,
+.tab-menu-list li:hover a {
+  background: #ff004d none repeat scroll 0 0;
+  color: #fff;
+  border-color: #ff004d;
+}
+.happen-icon {
+  float: left;
+  font-size: 40px;
+  line-height: 35px;
+  text-align: center;
+  width: 70px;
+}
+.happen-time-date > h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.happen-time-date {
+  display: inline-block;
+}
+.happen-time-date > p {
+  color: #888888;
+  margin: 0;
+}
+.happen-heading {
+  font-size: 18px;
+  line-height: 16px;
+  margin-bottom: 30px;
+}
+.happen-text > p {
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+.happen-text {
+  display: inline-block;
+  padding: 40px 20px;
+}
+.happen-img {
+  float: left;
+  width: 150px;
+}
+.happen-top {
+  background: #fff none repeat scroll 0 0;
+  padding: 20px 10px;
+}
+.section1-title {
+  color: #555555;
+  line-height: 30px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.nav.happen-tab {
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+
+.nav.happen-tab:before {
+  background: #999999 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: -1;
+}
+
+.tab-menu-list li a.active,
+.tab-menu-list li:hover a {
+  background: #ff004d none repeat scroll 0 0;
+  color: #fff;
+  border-color: #ff004d;
+}
+
+.d-block {
+  display: block !important;
+}
+
+/* .active{
+    background: #ff004d none repeat scroll 0 0;
+    border-color: #ff004d;
+} */
+
+.ptb100 {
+  padding: 100px 0;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.mb70 {
+  margin-bottom: 70px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.off-white {
+  background: #f9f9f9;
+}
+.fix {
+  overflow: hidden;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.tab-menu-list ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.tab-menu-list li a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  color: #555;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 30px;
+  display: block;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.tab-content > .active {
+  display: block;
+}
+
+.tab-content > .tab-pane {
+  display: none;
+}
+
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel {
+  touch-action: manipulation;
+}
+
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.day1 {
+  display: flex;
+  justify-content: center;
+}
+
+.happen-text > p {
+  color: #000000;
+}
+
+.Event_name {
+}
+
+@media (max-width: 1200px) {
+  .row {
+    --bs-gutter-x: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section1-title{
+    font-size: 41px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
