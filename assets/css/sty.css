@@ -225,7 +225,7 @@ body {
 	 background: #fff;
 }
  svg.intro {
-	 background: #fff;
+	 background: #181818;
 	 max-width: 600px;
 }
  svg.intro .text {
@@ -240,7 +240,7 @@ body {
 }
  svg.intro.go .text-stroke {
 	 fill: none;
-	 stroke: #ff0076;
+	 stroke: #a3f208;
 	 stroke-width: 0.8px;
 	 stroke-dashoffset: -900;
 	 stroke-dasharray: 900;
@@ -252,7 +252,7 @@ body {
 	 animation-delay: 0.3s;
 }
  svg.intro.go .text-stroke-2 {
-	 stroke: #ff0076;
+	 stroke: #a3f208;
 	 animation-delay: 1.2s;
 }
  @keyframes dash {
@@ -260,7 +260,7 @@ body {
     stroke-dashoffset: 0;
  }
   100%{
-    fill:#ff0076
+    fill:#a3f208;
   }
 }
  .flex-center svg {
