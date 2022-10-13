@@ -1693,7 +1693,7 @@ table thead:after, .gradient-box, .swiper-nav .swiper-button-next:before,
 }
 
 .card {
-  background-color: #142442;
+  background-color: #282727;
   border-radius: 10px;
 }
 
@@ -1709,6 +1709,20 @@ table thead:after, .gradient-box, .swiper-nav .swiper-button-next:before,
 
 .card .card-body.contact-form-wrap {
   padding: 55px 60px 44px;
+}
+
+.registration-card{
+  border: #a3f208;
+  border-top-style: none;
+  border-top-width: 3px;
+  border-top-style:solid;
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-radius: 30px;
 }
 
 @media only screen and (max-width: 479px) {
