@@ -6072,8 +6072,6 @@ textarea.form-control {
   color: white;
 }
 
-.Event_name {
-}
 
 @media (max-width: 1200px) {
   .row {
@@ -6086,5 +6084,31 @@ textarea.form-control {
     font-size: 41px;
     line-height: 40px;
     text-align: center;
+  }
+}
+
+/* ============================================== */
+            /* registration-pay */
+/* ============================================== */
+
+.btn-pay{
+  display: flex;
+  justify-content: center;
+}
+
+.input-inset{
+  background-color: #181818;
+  /* box-shadow: 3px 5px 4px 0px rgb(171, 216, 75); */
+}
+
+.btn-pay-size{
+  width:12rem;
+}
+
+@media (min-width: 1200px) {
+  .screen-name{
+    display: flex;
+    justify-content: center;
+    gap:2%;
   }
 }
